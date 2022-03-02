@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color:#555;
+    background-color: rgb(250, 244, 236) ;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: antiquewhite;
+}
+
+.logo{
+    color:rgb(44, 43, 42);
+    font-size: 30px;
+}
+.nav-links{
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    width:35%;
+}
+.nav-links li::after{
+    content:'';
+    width:0%;
+    height:2px;
+    background: rgb(44, 43, 42);
+    display:block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links li:hover::after{
+    width:80%;
+}
+.nav-item{
+    color: rgb(44, 43, 42);
+    font-weight: 700;
+    font-size:14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    position:relative;
+    padding: 8px 12px;
+}
+
+.CP-heading{
+    justify-content: space-between;
+    width:35%;
+    margin-left: 10%;
+    padding:40px;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+.box{
+    border:5px solid #ccc;
+    padding:15px;
+    margin: 20px;
+    background-color:  #f4f4f4 ;
+    position:relative;
+    left:20%;
+    right:30%;
+    width:60%;
+}
+.basic-info {
+   padding-bottom:20px;
+    padding-top:20px;
+}
+.input-box{
+    padding-bottom:20px;
+}
+.aa-input{
+    padding-bottom:20px;
+}
+.info-btn{
+    display:inline-block;
+    text-decoration:none;
+    color:rgb(44, 43, 42);
+    border:1px solid rgb(44, 43, 42);
+    padding: 10px 30px;
+    font-size:16px;
+    background:antiquewhite;
+    position:relative;
+    cursor:pointer;
+    left:65%;
+}
+.back-btn{
+    display:inline-block;
+    text-decoration:none;
+    color:rgb(44, 43, 42);
+    border:1px solid rgb(44, 43, 42);
+    padding: 10px 30px;
+    font-size:16px;
+    background:antiquewhite;
+    position:relative;
+    cursor:pointer;
+    left:60%;
+    margin-bottom: 50px;
+}
+.info-btn:hover{
+    border:1px solid #f44336;
+    background:#f44336;
+    color:#f4f4f4;
+    transition: 0.25s;
+}
+.asset-allocation{
+
+}
+
+.stocks-to-invest{
+    
+}
