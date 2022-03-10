@@ -67,6 +67,10 @@ nav{
     right:30%;
     width:60%;
 }
+.box h2{
+    margin-bottom: 20px;
+    align-items: center;
+}
 .basic-info {
    padding-bottom:20px;
     padding-top:20px;
@@ -92,11 +96,6 @@ nav{
 .back-btn{
     display:inline-block;
     text-decoration:none;
-    color:rgb(44, 43, 42);
-    border:1px solid rgb(44, 43, 42);
-    padding: 10px 30px;
-    font-size:16px;
-    background:antiquewhite;
     position:relative;
     cursor:pointer;
     left:60%;
@@ -108,10 +107,45 @@ nav{
     color:#f4f4f4;
     transition: 0.25s;
 }
-.asset-allocation{
-
+h2{
+    margin-bottom:5px;
+}
+.risk-level{
+    padding:20px;
+}
+.risk-level .questionnaire{
+    padding-bottom:15px;
+}
+.questionnaire label{
+    display:block;
+    margin-bottom: 10px;
+}
+.risk-level textarea{
+    padding:8px;
+    width:90%;
+    margin-bottom:15px;
 }
 
-.stocks-to-invest{
-    
+.financial-info{
+    padding:20px;
+}
+.financial-info .amount-div, .financial-info .asset-percentage-question, .financial-info .stocks-to-invest{
+    padding-bottom:15px;
+}
+.amount-div p{
+    margin-bottom: 0px;
+}
+.asset-percentage-question p{
+    margin-bottom: 20px;
+}
+.stocks-to-invest p{
+    margin-bottom: 20px;
+}
+.amnt-blocker label{
+    padding:5px;
+}
+.button{
+    position:relative;
+    left:65%;
+    margin-bottom: 50px;
 }

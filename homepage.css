@@ -94,7 +94,57 @@ nav{
     background:#f44336;
     transition: 1s;
 }
+.section{
+    padding: 100px 0;
+}
+.service{
+    display:flex;
+}
+#our-service .service-text{
+    width: 60%;
+    margin-top: 10px;
+    padding:20px;
+}
+#our-service .service-text h2{
+    font-size: 40px;
+    padding:5px;
+    margin-bottom: 20px;
+}
+#our-service .service-text p{
+    margin-bottom: 10px;
+}
+#our-service .service-pic{
+    width:50%;
 
+}
+#our-service .service-pic img{
+    display:block;
+    max-width:100%;
+}
+.sec2-title{
+    text-align: center;
+    font-size: 40px;
+}
+.objectives{
+    display:flex;
+}
+
+.objectives .three-objectives{
+    flex:25%;
+    padding:0px;
+    margin-top:100px;
+    margin-left: 0px;
+    margin-bottom:100px;
+    text-align: center;
+}
+.objectives .three-objectives p{
+    width:80%;
+    margin-top:8px;
+    margin-left:40px;
+}
+.objectives .three-objectives .upload, .NLP-1, .portfolio-1{
+    width:400px
+}
 .easy-upload{
     text-align: left;
     justify-content:space-between;
@@ -113,7 +163,7 @@ nav{
     padding:100px;
     border:4px solid #fff;
     position: relative;
-    top:-100px;
+    
 }
 .optimal-portfolio{
     text-align: left;
@@ -125,7 +175,7 @@ nav{
     padding:100px;
     border:4px solid #fff;
     position:relative;
-    top:-300px;
+   
 }
 .upload-file{
     width:500px;
@@ -144,7 +194,7 @@ nav{
     width:450px;
     position:relative;
     left:60px;
-    top:-550px;
+    top:-590px;
 }
 .comments{
     background-color: #fff;
@@ -194,7 +244,7 @@ nav{
     position:relative;
     cursor:pointer;
     left:70%;
-    bottom:120px;
+    bottom:80px;
 }
 .service-btn:hover{
     border:1px solid #f44336;
