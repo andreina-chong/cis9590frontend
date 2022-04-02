@@ -46,7 +46,25 @@ nav{
     position:relative;
     padding: 8px 12px;
 }
-
+.home-area{
+    min-height: 30vh;
+    width:100%;
+    position:relative;
+    background-image: linear-gradient(rgba(245, 237, 204, 0.363),rgba(245, 237, 204, 0.363)),url(images/profile-banner.jpg);
+    background-size:cover;
+    text-align: center;
+}
+.home-area h1{
+    width:25%;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.671);
+    padding:8px;
+    position: relative;
+    top:80px;
+    bottom:100px;
+    left:28%;
+}
 .CP-heading{
     justify-content: space-between;
     width:35%;
@@ -100,7 +118,13 @@ nav{
     cursor:pointer;
     left:60%;
     margin-bottom: 50px;
+    padding:10px;
+    border:1px solid;
+    border:1px solid gray;
+    background:gray;
+    color:#f4f4f4;
 }
+
 .info-btn:hover{
     border:1px solid #f44336;
     background:#f44336;
@@ -138,14 +162,95 @@ h2{
 .asset-percentage-question p{
     margin-bottom: 20px;
 }
+.stock-option{
+    display:flex;
+    flex-wrap:wrap;
+}
 .stocks-to-invest p{
     margin-bottom: 20px;
 }
+.stocks-to-invest .stocks{
+    width:15%;
+    display:flex;
+}
+.stocks input{
+    margin-right:10px;
+}
 .amnt-blocker label{
     padding:5px;
+    margin-left: 20px;
 }
 .button{
     position:relative;
     left:65%;
     margin-bottom: 50px;
+}
+.footer{
+    padding: 40px 0;
+    background-color: antiquewhite;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom:25px;
+    color:rgb(44, 43, 42)
+}
+.footer .social a{
+    font-size:24px;
+    color:inherit;
+    border: 2px solid white;
+    width:40px;
+    height:40px;
+    line-height:38px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .social a:hover{
+    opacity:0.95;
+}
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align:center;
+}  
+
+.footer ul li a{
+    color:inherit;
+    text-decoration: none;
+    opacity:0.8;
+}
+
+.footer ul li{
+    display:inline-block;
+    padding:0 15px;
+}
+.footer ul li a:hover{
+    opacity:1;
+}
+.footer .copyright{
+    margin-top:10px;
+    text-align:center;
+    font-size: 13px;
+}
+.info-form a{
+    padding:10px;
+    border:1px solid;
+    
+}
+.button{
+    padding:10px;
+}
+.button:hover{
+    border:1px solid #f44336;
+    background:#f44336;
+    color:#fff;
+   
 }

@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: rgb(250, 244, 236);
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -44,7 +46,7 @@ nav{
     padding: 8px 12px;
 }
 .heading{
-    background-color: rgb(250, 244, 236);
+    background-image: linear-gradient(rgba(245, 237, 204, 0.363),rgba(245, 237, 204, 0.363)),url(images/about-us-banner.jpg);
     padding-top: 60px;
     padding-bottom: 50px;
     font-size:25px;
@@ -62,7 +64,50 @@ nav{
     padding-left:40px;
     font-size:20px;
 }
+.people h1{
+    text-align: center;
+}
+.people p{
+    padding-top:40px;
+    padding-right:40px;
+    font-size:20px;
+}
+.people{
+    display:flex;
+    margin:0 80px 80px 80px;
+}
+.our-team{
+    text-align: center;
+    justify-content: center;
+}
+.our-team h1{
+    margin-bottom: 40px;
 
+}
+.our-team .org-structure{
+    display:flex;
+    flex-wrap: wrap;
+    position:relative;
+    margin-bottom:40px;
+}
+.our-team .team{
+    
+    width:20%;
+    margin:40px 80px 20px 80px;
+    
+    /* border:1px solid rgb(44, 43, 42); */
+    padding:8px;
+}
+.our-team .team-pic{
+    width: 150px;
+    border-radius: 80px;
+    height:150px;
+}
+.our-team p{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
 .footer{
     padding: 40px 0;
     background-color: antiquewhite;
