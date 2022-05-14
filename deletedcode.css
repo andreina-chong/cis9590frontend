@@ -1,0 +1,83 @@
+.easy-upload{
+    text-align: left;
+    justify-content:space-between;
+    width:35%;
+    margin-left: 60%;
+    margin-top: 40px;
+    padding:100px;
+    border:4px solid #fff;
+}
+.NLP{
+    text-align: left;
+    justify-content:space-between;
+    width:35%;
+    margin-right: 60%;
+    margin-left: 60px;
+    padding:100px;
+    border:4px solid #fff;
+    position: relative;
+    
+}
+.optimal-portfolio{
+    text-align: left;
+    justify-content:space-between;
+    width:35%;
+    margin-left: 60%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding:100px;
+    border:4px solid #fff;
+    position:relative;
+   
+}
+.upload-file{
+    width:500px;
+    position:relative;
+    left:60px;
+    top:-200px;
+}
+.NLPimg{
+    width:500px;
+    position:relative;
+    left: 900px;
+    right:60px;
+    top:-400px;
+}
+.portfolio{
+    width:450px;
+    position:relative;
+    left:60px;
+    top:-590px;
+}
+.comments{
+    background-color: #fff;
+    margin-bottom:20px;
+}
+.CR-heading{
+    justify-content: space-between;
+    width:35%;
+    margin-left: 40%;
+    padding:50px;
+    font-style: italic;
+    font-size: 40px;
+}
+.review{
+    position:relative;
+    bottom:95px;
+    width:50%;
+    margin-left: 25%;
+    padding:30px;
+    background-color: rgb(250, 244, 236);
+}
+.user-icon{
+    position:relative;
+    width:80px;
+    left:280px;
+    top:5px;
+}
+.service-heading{
+    padding:35px;
+    font-size:40px;
+    position:relative;
+    left:5%;
+}
