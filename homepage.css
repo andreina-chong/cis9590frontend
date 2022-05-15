@@ -156,13 +156,13 @@ nav{
     margin-bottom: 40px;
 }
 .services .service-p{
-    width:40%;
+    width:50%;
     margin-left:19%;
     font-size: 30px;
     padding:10px;
 }
 .services .service-btn{
-    /* display:inline-block; */
+    display:inline-block;
     text-decoration:none;
     color:#fff;
     border:2px solid antiquewhite;
